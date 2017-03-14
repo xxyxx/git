@@ -1,0 +1,57 @@
+body {
+  background-color:  #441E13;
+  color:white;
+}
+
+div{
+ outline: 1px solid yellow;
+
+}
+
+
+.logo {
+  width: 200px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  float: left;
+}
+
+.slogan {
+  width: 380px;
+  float: left;
+  margin-top: 15px;
+  font-family: sans-serif;
+  font:0.9rem;
+  color: #A37B71
+}
+
+.logoContainer {
+  overflow: hidden;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.nav {
+  width:920px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0.25);
+  padding: 0px 10px;
+  padding-top: 18px;
+}
+
+.nav li {
+  margin: 0;
+  display: block;
+  float: left;
+  font-family: sans-serif;
+  padding: 6px 20px;
+  border-right: 1px solid #D4B364
+}
+
+.nav li:last-child{
+    border-right:none;
+}
